@@ -1,6 +1,6 @@
-# 🦺 OpenGuard: Edge AI for Automated PPE Compliance
+# OpenGuard: Edge AI for Automated PPE Compliance
 
-## 📌 Overview
+## Overview
 OpenGuard is a distributed multi-node edge AI system designed to monitor Personal Protective Equipment (PPE) compliance in real-time across construction sites.
 
 Unlike traditional cloud-based systems, OpenGuard performs on-device inference using edge hardware, ensuring:
@@ -13,7 +13,7 @@ The system integrates computer vision, IoT communication, and real-time dashboar
 
 ---
 
-## 🚨 Problem Statement
+## Problem Statement
 
 Construction sites are among the most hazardous working environments globally.  
 In Singapore, ~52% of fatal incidents are caused by falls, often due to inconsistent PPE compliance.
@@ -28,7 +28,7 @@ OpenGuard addresses these gaps with a fully edge-based, multi-zone, real-time mo
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 1. Train and deploy a YOLOv8n PPE detection model  
 2. Optimise model using NCNN for edge deployment  
@@ -39,7 +39,7 @@ OpenGuard addresses these gaps with a fully edge-based, multi-zone, real-time mo
 
 ---
 
-## ⚙️ System Architecture
+## System Architecture
 [Camera (per zone)]
 ↓
 [Raspberry Pi Zero 2 W] (Edge Nodes)
@@ -52,7 +52,7 @@ OpenGuard addresses these gaps with a fully edge-based, multi-zone, real-time mo
 
 ---
 
-## 🧩 Components
+## Components
 
 ### Edge Nodes (Raspberry Pi Zero 2 W)
 - Capture video using Logitech C270 webcams  
@@ -68,9 +68,9 @@ OpenGuard addresses these gaps with a fully edge-based, multi-zone, real-time mo
 ### M5StickC Plus
 - Subscribes to MQTT alerts  
 - Displays real-time safety status:
-  - 🔴 RED → Missing PPE  
-  - 🟡 YELLOW → No people detected  
-  - 🟢 GREEN → Safe  
+  - RED → Missing PPE  
+  - YELLOW → No people detected  
+  - GREEN → Safe  
 
 ### Dashboard
 - Displays live camera feeds  
@@ -79,7 +79,7 @@ OpenGuard addresses these gaps with a fully edge-based, multi-zone, real-time mo
 
 ---
 
-## 🔍 AI Model
+## AI Model
 
 - Model: YOLOv8n  
 - Classes:
@@ -94,7 +94,7 @@ OpenGuard addresses these gaps with a fully edge-based, multi-zone, real-time mo
 
 ---
 
-## 🧠 Safety Logic
+## Safety Logic
 IF any PPE is missing → RED
 ELSE IF all PPE present → GREEN
 ELSE → YELLOW
@@ -102,7 +102,7 @@ ELSE → YELLOW
 
 ---
 
-## 📡 Communication (MQTT)
+## Communication (MQTT)
 
 ### Topics
 | Topic | Purpose |
@@ -118,7 +118,7 @@ ELSE → YELLOW
 
 ---
 
-## 📊 Experiments & Results
+## Experiments & Results
 
 Using PASO framework:
 
