@@ -138,7 +138,7 @@ Using PASO framework:
 
 ---
 
-## 🚀 Features
+## Features
 
 - Multi-zone PPE monitoring  
 - Fully edge-based system  
@@ -149,7 +149,7 @@ Using PASO framework:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Hardware
 - Raspberry Pi Zero 2 W  
@@ -170,7 +170,7 @@ Using PASO framework:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Detection accuracy depends on training data  
 - No per-person PPE tracking  
@@ -179,7 +179,7 @@ Using PASO framework:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Per-person PPE tracking  
 - Fall detection integration  
@@ -190,7 +190,7 @@ Using PASO framework:
 
 ---
 
-## 🎥 Demo Highlights
+## Demo Highlights
 
 - Real-time PPE detection  
 - Instant LED alerts  
@@ -199,7 +199,7 @@ Using PASO framework:
 
 ---
 
-## 🧑‍💻 Team
+## Team
 
 - PEK JUN TECK KEITH  
 - JONATHAN ZENG YU ZHAO  
@@ -211,7 +211,7 @@ Faculty: Professor Muhamed Fauzi Bin Abbas
 
 ---
 
-## 📚 Reference
+## Reference
 
 Ministry of Manpower Singapore (2023)  
 Workplace Safety and Health Report 2023  
@@ -219,7 +219,7 @@ https://www.mom.gov.sg/workplace-safety-and-health
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 OpenGuard demonstrates how Edge AI + IoT can be combined to build a scalable, low-cost, real-time safety monitoring system for industrial environments.
 
